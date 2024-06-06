@@ -1,0 +1,109 @@
+body{
+    background-image: url("../Dice-imgg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dices-computer-player{
+    column-count: 2;
+}
+
+.dices-player{
+    column-count: 2;
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dice{
+    font-size: 70pt;
+}
+
+button{
+    width: 100%;
+}
+
+.dice-button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.higher-button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.lower-button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.go-button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer; 
+    font-size: 1.1em;
+    color: #cccccc;
+    font-weight: bold;
+}
