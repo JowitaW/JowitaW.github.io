@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Candal&family=Corben:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-  font-family: "Corben", serif;
+  background: linear-gradient(120deg, #000000, #3b1c58); /* Black to dark purple gradient */
+  color: white; /* Text color */
+  font-family: "Corben", serif; /* Optional: Set a font family */
   scroll-behavior: smooth;
   overflow-x: hidden;
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(120deg, #000000, #3b1c58); /* Black to dark purple gradient */
 }
 
 .navbar-brand {
   font-weight: bold;
+  color: white !important; /* Force text color to white */
 }
 
 .navbar-nav .nav-link {
   padding: 10px 15px;
+  color: white !important; /* Force text color to white */
 }
 
 #home {
@@ -43,10 +52,6 @@ body {
   margin-bottom: 40px;
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-#about {
-  background-color: #f9f9f9;
 }
 
 .card {
