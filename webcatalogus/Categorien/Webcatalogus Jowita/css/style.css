@@ -1,0 +1,165 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        'nav nav nav'
+        'sbnav sbnav sbnav'
+        'as as as'
+        'ft ft ft';
+    gap: 20px;
+}
+
+.j-nav {
+    grid-area: nav;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.j-nav h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    grid-area: sbnav;
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.item-one {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+ 
+.item-one .acc-img{
+    object-fit: contain;
+    height: 350px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .acc-header{
+    color: black;
+}
+
+.acc-description{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.item-two {
+    grid-area: mn;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-two .li-img{
+    object-fit: contain;
+    height: 350px;
+    width: 600px;
+}
+
+.license-header{
+    color: black;
+}
+
+.li-description{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.item-three {
+    grid-area: ar;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-three .gh-img{
+    object-fit: contain;
+    height: 350px;
+    width: 550px;
+}
+
+.gear-header{
+    color: black;
+}
+
+.gh-description{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+} */
+
+.ft {
+    grid-area: ft;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 99px;
+    position: sticky;
+}
+
+.item-one {
+    grid-area: as;
+    display: flex;
+    justify-content: center;
+}
+
+.in-items{
+    gap: 20px;
+    overflow: hidden;
+}
+
+.in-items img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 857px) {
+    .item-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the items horizontally */
+    }
+
+    .in-items {
+        margin-top: 20px; /* Add space between stacked items */
+    }
+}

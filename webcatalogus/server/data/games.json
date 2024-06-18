@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Metal gear solid 3",
+        "image":"../mgs3.webp"
+    },
+
+    {
+        "name":"Bloodborne",
+        "image":"../bloodborne.webp"
+    },
+
+    {
+        "name":"MTG Arena",
+        "image":"../mtgarena.jpg"
+    }
+]

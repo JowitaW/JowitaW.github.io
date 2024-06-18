@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Games",
+        "image":"../webcatalogus-tristan/img/games-foto.webp"
+    },
+
+    {
+        "name":"Consoles",
+        "image":"../webcatalogus-tristan/img/console foto.webp"
+    },
+
+    {
+        "name":"Publishers",
+        "image":"../webcatalogus-tristan/img/pubnlishers.png"
+    }
+]

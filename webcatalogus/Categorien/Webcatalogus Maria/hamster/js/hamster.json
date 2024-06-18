@@ -1,0 +1,17 @@
+[
+    {
+        "wheelCategory": "Category 1",
+        "categoryOneDescription": "Hamster Wheels",
+        "homeImg": "../coconut.png"
+    },
+    {
+        "foodCategory": "Category 2",
+        "categoryTwoDescription": "Hamster Food and Snacks",
+        "homeImg": "../coconut.png"
+    },
+    {
+        "houseCategory": "Category 3",
+        "categoryThreeDescription": "Hamster Houses",
+        "homeImg": "../coconut.png"
+    }
+]

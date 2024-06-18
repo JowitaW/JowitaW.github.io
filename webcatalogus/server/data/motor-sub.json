@@ -1,0 +1,22 @@
+[
+{
+    "link": "accessories.html",
+    "subImage": "../../Categorien/Webcatalogus Jowita/img/accessories mc.jpg",
+    "subTitle": "Accessories",
+    "subDescription": "Discover an assortment of accessories designed to enhance the style and performance of your motorcycle, ensuring every ride is both thrilling and safe. From sleek additions to functional gadgets, these accessories cater to diverse rider preferences. Customize your ride to match your unique style while prioritizing safety on the road with these enhancements."
+},
+
+{
+    "link": "license.html",
+    "subImage": "../../Categorien/Webcatalogus Jowita/img/license mc.jpg",
+    "subTitle": "License",
+    "subDescription": "A motor license, a legal document, authorizes individuals to drive motor vehicles on public roads. Obtaining it usually requires passing both written and practical driving tests, which are overseen by the relevant authorities. This process ensures that drivers possess the necessary skills and knowledge to safely navigate roadways."
+},
+
+{
+    "link": "gear.html",
+    "subImage": "../../Categorien/Webcatalogus Jowita/img/gear-helm mc.jpg",
+    "subTitle": "Gear & Helm",
+    "subDescription": "Motor gear and helmets are essential safety equipment for motorcycle riders, providing protection against injuries in the event of accidents. Designed with durable materials and ergonomic features, they ensure both comfort and safety during rides, safeguarding riders from potential hazards on the road."
+}
+]

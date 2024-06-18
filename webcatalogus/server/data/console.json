@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Playstation",
+        "image":"../playstation foto.jpg"
+    },
+
+    {
+        "name":"Nintendo Switch",
+        "image":"../Nintendo switch.jfif"
+    },
+
+    {
+        "name":"Xbox",
+        "image":"../Xbox-Series-X.jpg"
+    }
+]

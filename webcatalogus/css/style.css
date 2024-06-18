@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.wrapper-grid-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    'nav nav nav'
+    'sbnav sbnav sbnav'
+    'mn1 mn mn2'
+    'intft intft intft'
+    'ft ft ft';
+    gap: 20px;
+}
+
+.j-nav {
+    grid-area: nav;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.j-nav h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    grid-area: sbnav;
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main-car{
+    grid-area: mn;
+}
+
+.carousel-left{
+    grid-area: mn1;
+    text-align: center;
+    padding: 125px;
+}
+
+.carousel-right{
+    grid-area: mn2;
+    text-align: center;
+    padding: 125px;
+}
+
+.carousel-button{
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+
+.project-intro{
+    grid-area: intft;
+    text-align: center;
+    padding: 97px;
+}
+
+.ft{
+    grid-area: ft;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+}
+
+@media only screen and (min-device-width: 1366px) and  (max-width: 1024px) {
+    
+        .wrapper-grid-main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            'nav nav'
+            'sbnav sbnav'
+            'mn1 mn mn2'
+            'intft intft'
+            'ft ft';
+            gap: 20px;
+        }
+
+        .ft{
+            grid-area: ft;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            /* position: sticky; */
+            margin-top: 50px;
+        }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper-grid-main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            '.. nav ..'
+            '.. sbnav ..'
+            'mn1 mn mn2'
+            '.. intft ..'
+            'ft';
+    }
+
+    .main-car {
+        padding: 20px;
+    }
+
+    .carousel-left,
+    .carousel-right {
+        text-align: center;
+        padding: 20px;
+    }
+}

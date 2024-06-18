@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Sony Interactive",
+        "image":"../sony logo.webp"
+    },
+
+    {
+        "name":"Bandai Namco",
+        "image":"../bandai logo.jpg"
+    },
+
+    {
+        "name":"Kojima Productions",
+        "image":"../kojima logo.png"
+    }
+]

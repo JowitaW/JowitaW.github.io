@@ -1,0 +1,118 @@
+:root {
+    --nav-main-color: rgb(238, 167, 206);
+    --header-main-color: rgb(180, 125, 157);
+    --background-color: #f5f5f5;
+    --nav-w-color: rgb(142, 213, 255);
+    --sub-nav-w-color: rgb(67, 152, 201);
+    --header-f-color: rgb(236, 95, 52);
+    --nav-f-color: rgb(230, 147, 23);
+    --nav-h-color: rgb(68, 138, 36);
+    --sub-nav-color-h: rgb(150, 206, 113);
+}
+
+.body-m-f {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/food-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+        "nav nav nav nav nav nav"
+        "sub-nav sub-nav sub-nav sub-nav sub-nav sub-nav"
+        "as1 as1 as2 as2 as3 as3"
+        "as1 as1 as2 as2 as3 as3";
+    gap: 20px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+}
+
+.m-header-food a{
+    text-decoration: none;
+}
+
+.m-header-food {
+    grid-area: nav;
+    background-color: var(--header-f-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-food {
+    grid-area: sub-nav;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: var(--nav-f-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-food a{
+color: black;
+text-decoration: none;
+}
+
+.item-one-f {
+    margin-top: 100px;
+    grid-area: as1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.item-one-f:hover{
+    opacity: 0.6;
+}
+
+.item-two-f {
+    margin-top: 100px;
+    grid-area: as2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.item-two-f:hover{
+    opacity: 0.6;
+}
+
+.item-three-f {
+    margin-top: 100px;
+    grid-area: as3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.item-three-f:hover{
+    opacity: 0.6;
+}
+
+.nav-f {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+}
