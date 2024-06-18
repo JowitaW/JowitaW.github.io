@@ -1,0 +1,47 @@
+.background-color {
+    background-color: #B8B5F0;
+}
+
+.background-color-housing {
+    background-color: #241C3C;
+}
+
+.btn-lg-supnav {
+    padding: 20px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 70px;
+    text-align: center;
+    box-shadow: #3D395B -16px -18px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.d-grid {
+    gap: 20px;
+    width: 60%; /* Ensure the grid takes the full width of the container */
+}
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-3, .col-md-9 {
+    padding: 0;
+}
+
+
